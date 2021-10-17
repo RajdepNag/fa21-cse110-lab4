@@ -29,8 +29,8 @@
     E. false - 'true' is mapped to 1 which is not equal to 2.<br />
     F. true - Boolean(2) is 'true' which is strictly equal to 'true'<br />
 15. '==' checks for equality with type conversion. '===' checks for equality without type conversion and hence checks if 2 values are equal in terms of both type and value.
-17. Here the function 'doSomething' is the callback function. When i is 0. newArr[0] gets assigned 2 as callback(array[0])(which is callback(1) calls the function doSomething which simply doubles the input parameter. So 2 gets pushed into newArr[0]. Next, when i = 1 callback(array[1] -> 2) is pushed into newArr[1] which is just  2 * 2 = 4. Lastly, array[2] -> 3 is doubled and pushed into newArr[2]. Therefore the resulting newArr is just [2,4,6].
-19. 1<br />
+'17'. Here the function 'doSomething' is the callback function. When i is 0. newArr[0] gets assigned 2 as callback(array[0])(which is callback(1) calls the function doSomething which simply doubles the input parameter. So 2 gets pushed into newArr[0]. Next, when i = 1 callback(array[1] -> 2) is pushed into newArr[1] which is just  2 * 2 = 4. Lastly, array[2] -> 3 is doubled and pushed into newArr[2]. Therefore the resulting newArr is just [2,4,6].
+'19'. 1<br />
     4<br />
     3<br />
     2<br />
