@@ -9,4 +9,25 @@
 9. Line 11 throws an error because the variable i is not defined as it is out of scope. It's a 'let' variable and is only defined in ins block which is the for loop and the console call at line 11 is outside the loop.
 10. The output at line 13 is 3. lenth is a 'const' variable and so only takes the value it is initialized with. In the case that is the length of the array which is at a constant length 3. 
 11. The function doesn't throw any errors because the variables are all inside their scope. The elements of discounted are never reassigned values which would throw an error as it is a const array. Similarly discountedPrice is redfined on every iteration and never resassigned a value after initialization.
-12. 
+12. A. student.name
+    B. student['Grad Year']
+    C. student.greeting()
+    D. student['Favorite Teacher'].name
+    E. student.courseLoad[0]
+13. A. '32' - 2 is mapped to it's string representation and the output will be the string '32'
+    B. 1 - '3' is mapped to its integer value 3.
+    C. 3 - null is mapped to its integer value 0.
+    D. '3null' - null is mapped to its string value 'null' and concatenate
+    E. 4 - true is mapped to its integer value 1.
+    F. 0 - false and null are both mapped to their integer values 0.
+    G. '3undefined' - undefined is converted into a string 'undefined'
+    H. NaN - undefined has no integral mapping so the output is just 'Not a Number'
+14. A. true - '2' becomes 2 which is greater than 1.
+    B. false - the first element of the strings are '2' and '1' and as '2' is greater than '1' alphanumerically it returns false.
+    C. true - '2' is mapped to integral value 2.
+    D. false - === is a strict equality check and as '2' and 2 are of different types it's false.
+    E. false - 'true' is mapped to 1 which is not equal to 2.
+    F. true - Boolean(2) is 'true' which is strictly equal to 'true'
+15. '==' checks for equality with type conversion. '===' checks for equality without type conversion and hence checks if 2 values are equal in terms of both type and value.
+17.
+
