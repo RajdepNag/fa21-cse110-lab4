@@ -1,1 +1,12 @@
-
+1. console.log(i) outputs '3'. This is because i is a 'var' variable and is defined inside its entire block which in this case is the function itself. The size of the array 'Prices' is 3 and so after 3 iterations i becomes 3 causing the loop to end and that's why 'i's final value is 3.
+2. Output is '150' for line 13. Similar to 'i' 'discountedPrice is also a 'var' variable and hence it's scope is the entire function. It's last value is for discountPrices[2] which is 300. Therefore, it would be = 300 * (1 - 0.5) = 150 which is the output we get at line 13.
+3. Output is '150' for line 14. ; 'finalPrice' is also a 'var' variable and hence it's scope is the entire function. Its last value is '150' in the iterative loop and that's why it's the output for line 14.
+4. The function returns the discounted array which we defined at the top of the function. It stores the finalPrice for each prices[i] after discount. 
+5. There is an error thrown at line 12 because the variable i is out of scope and is not defined. This is because it is  a 'let' variable and is only defined in its block which is the for loop and the console call at line 12 is outside the loop.
+6. There is an error thrown at line 13 because the variable discountedPrice is out of scope and is not defined. This is because it is  a 'let' variable and is only defined in its block which is the for loop and the console call at line 13 is outside the loop.
+7. The output at line 14 is 150. This is because finalPrice is defined at the top of the function and hence its scope is the entire function including the console calls. 
+8. The function would return the same array as in Question 4. All the variables are defined in their scopes and no errors are thrown and hence the function would return the array of the discounted prices related to each price in the 'prices' argument. 
+9. Line 11 throws an error because the variable i is not defined as it is out of scope. It's a 'let' variable and is only defined in ins block which is the for loop and the console call at line 11 is outside the loop.
+10. The output at line 13 is 3. lenth is a 'const' variable and so only takes the value it is initialized with. In the case that is the length of the array which is at a constant length 3. 
+11. The function doesn't throw any errors because the variables are all inside their scope. The elements of discounted are never reassigned values which would throw an error as it is a const array. Similarly discountedPrice is redfined on every iteration and never resassigned a value after initialization.
+12. 
